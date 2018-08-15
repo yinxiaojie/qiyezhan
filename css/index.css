@@ -1,0 +1,356 @@
+*{
+    margin: 0;
+    padding:0;
+    list-style: none;
+}
+header{
+    width: 100%;
+    height: 63px;
+    /*background: red;*/
+}
+.head{
+    width: 1259px;
+    height: 63px;
+    /*background: greenyellow;*/
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-between;
+}
+.head_left{
+    width: 207px;
+    height: 63px;
+    background: url("../img/word.png") no-repeat center;
+    background-size: 128px 43px;
+    margin-left: 40px;
+}
+.head_right{
+    width:500px;
+    height: 63px;
+    /*background: cyan;*/
+    margin-right: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+li{
+    font-size: 12px;
+    color: #999999;
+    float: left;
+    margin-right: 61px;
+}
+li:last-child{
+    margin-right: 0;
+}
+li:hover{
+    color: #4bb344;
+    cursor:pointer;
+}
+main{
+    width: 100%;
+    height: 596px;
+}
+main>.picture{
+    width: 1259px;
+    height: 596px;
+    background: url("../img/cai.jpg") no-repeat center;
+    background-size: 1259px 596px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.idea{
+    width: 100%;
+    height: 20px;
+    color: #fff;
+    font-weight:bold;
+    font-size: 20px;
+    margin-top:153px;
+    text-align: center;
+}
+.word{
+    width: 100%;
+    height: 9px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 9px;
+    text-align: center;
+    margin-top:9px;
+}
+main>div>h1{
+    width: 100%;
+    height: 72px;
+    color: #fff;
+    text-align: center;
+    font-size: 72px;
+    margin-top:75px;
+}
+.table{
+    width: 100%;
+    height: 18px;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    margin-top:31px;
+}
+section{
+    width: 100%;
+    height: 269px;
+    /*background: yellow;*/
+    margin-top: 500px;
+}
+.show{
+    width: 1201px;
+    height: 269px;
+    background:#fff;
+    margin: 0 auto;
+    animation: translateY 2s forwards;
+}
+@keyframes translateY{
+    from{
+        transform: translateY(80px);
+    }
+    to{
+        transform: translateY(-80px);
+    }
+}
+.case{
+    width: 257px ;
+    height: 175px;
+    border-right:1px solid #e5e5e5;
+    margin-top: 49px;
+    overflow: hidden;
+    float: left;
+    margin-left:30px;
+    transition: all 1s;
+}
+.case:hover{
+    transform: translateY(-5px);
+}
+.show_1{
+    height: 39px;
+    background:url("../img/shou.png") no-repeat center;
+    margin-top: 24px;
+    text-align: center;
+    line-height: 175px;
+}
+.num{
+    font-size: 35px;
+    color: #4bb344;
+    text-align: center;
+    margin-top: 20px;
+}
+.example{
+    font-size: 12px;
+    color: #4bb344;
+    text-align: center;
+}
+.show_2{
+    height: 44px;
+    background: url("../img/fangzi.png") no-repeat center;
+    margin-top: 22px;
+}
+.show_3{
+    height: 62px;
+    background: url("../img/hua.png") no-repeat center;
+    margin-top: 13px;
+}
+.show_4{
+    height: 64px;
+    background: url("../img/no.png") no-repeat center;
+    margin-top: 12px;
+}
+.case_n{
+    border-right: 0;
+}
+.news{
+    width: 1259px;
+    height: 563px;
+    /*background: #999999;*/
+    margin: 0 auto;
+    overflow: hidden;
+}
+section>h1{
+    font-size: 44px;
+    color: #4bb344;
+    margin-top: 87px;
+    text-align: center;
+}
+section>p{
+    font-size: 22px;
+    color: #5a5d5a;
+    font-weight: normal;
+    margin-left: 540px;
+}
+.list{
+    width: 375px;
+    height: 266px;
+    border: 1px solid #dddddd;
+    margin-right: 30px;
+    margin-top: 62px;
+    float: left;
+}
+.list_1{
+    margin-left: 33px;
+}
+.area{
+    width: 294px;
+    height: 40px;
+    border-bottom: 1px solid #dddddd;
+    margin: 54px auto;
+    font-size: 16px;
+    color: #555555;
+}
+.produce{
+    width: 294px;
+    height: 37px;
+    font-size: 13px;
+    margin-left: 40px;
+    color: #adadad;
+}
+.arrow{
+    width: 31px;
+    height: 29px;
+    border: 1px solid #dddddd;
+    margin-left: 40px;
+    margin-top: 40px;
+    text-align: center;
+    line-height: 29px;
+    color: #dddddd;
+}
+.list:hover {
+    border: 1px solid #999999;
+    color: #4bb344;
+}
+.area:hover{
+    color: #4bb344;
+    cursor: pointer;
+}
+.arrow:hover{
+    border: 1px solid #4bb344;
+    color: #4bb344;
+    cursor: pointer;
+}
+.show_star{
+    width: 100%;
+    height: 166px;
+}
+div>h1{
+    font-size: 44px;
+    color: #4bb344;
+    text-align: center;
+}
+div>h2{
+    font-size: 22px;
+    color: #5a5d5a;
+    margin-left: 570px;
+}
+.product{
+    width: 1144px;
+    height: 648px;
+    /*background: yellow;*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    margin: 0 auto;
+}
+.product_show{
+    width: 271px;
+    height: 309px;
+    border: 1px solid #e5e5e5;
+    /*background: #4bb344;*/
+    margin-bottom: 26px;
+    animation: translateY 1s;
+}
+@keyframes translateY {
+    from{
+        transform: translateY(100px);
+    }
+    to{
+        transform: translateY(-100px);
+    }
+}
+.caihua{
+    width: 200px;
+    height: 200px;
+    background: url("../img/caihua.jpg") no-repeat center;
+    margin-left: 35px;
+}
+.variety{
+    font-size: 12px;
+    color: #333;
+    margin-top: 60px;
+    text-align: center;
+}
+.tomato{
+    background: url("../img/tomato.jpg") no-repeat center;
+}
+.qiezi{
+    background: url("../img/qiezi.jpg") no-repeat center;
+}
+.doujiao{
+    background: url("../img/doujiao.jpg") no-repeat center;
+}
+.baicai{
+    background: url("../img/baicai.jpg") no-repeat center;
+}
+.taozi{
+    background: url("../img/tao.jpg") no-repeat center;
+}
+.caomei {
+    background: url("../img/caomei.jpg") no-repeat center;
+}
+.lizi{
+    background: url("../img/lizi.jpg") no-repeat center;
+}
+footer{
+    width: 100%;
+    height: 254px;
+    background: #f0f0f0;
+    margin-top: 203px;
+}
+.base{
+    width: 797px;
+    height: 254px;
+    /*background: #999999;*/
+    margin: 0 auto;
+}
+.base_top{
+    width: 897px;
+    height: 138px;
+    /*background: cyan;*/
+    display: flex;
+    justify-content: space-between;
+}
+.base_box{
+    width: 181px;
+    height: 138px;
+    margin-top: 46px;
+    /*background: #4bb344;*/
+}
+h3{
+    font-size: 13px;
+    color:#333;
+    font-weight:normal;
+}
+.content{
+    font-size: 12px;
+    color: #a9a9a9;
+    margin-top: 47px;
+}
+.content1{
+    font-size: 12px;
+    color:#a9a9a9 ;
+}
+.code{
+    width: 76px;
+    height: 76px;
+    background: url("../img/erweima.jpg") no-repeat center;
+    background-size: 76px 76px;
+    margin-top: 30px;
+}
+.base_bottom{
+    height: 16px;
+    font-size: 12px;
+    color: #808080;
+    margin-top: 73px;
+    text-align: center;
+}
