@@ -124,6 +124,7 @@ section{
 }
 .case:hover{
     transform: translateY(-5px);
+    cursor: pointer;
 }
 .show_1{
     height: 39px;
@@ -258,14 +259,13 @@ div>h2{
     border: 1px solid #e5e5e5;
     /*background: #4bb344;*/
     margin-bottom: 26px;
-    animation: translateY 1s;
 }
-@keyframes translateY {
+@keyframes rotate {
     from{
-        transform: translateY(100px);
+        transform: rotate(60deg);
     }
     to{
-        transform: translateY(-100px);
+        transform: rotate(360deg);
     }
 }
 .caihua{
@@ -273,6 +273,11 @@ div>h2{
     height: 200px;
     background: url("../img/caihua.jpg") no-repeat center;
     margin-left: 35px;
+    animation: rotate 2s;
+}
+.caihua:hover{
+    transform: scale(1.1,1.1);
+    cursor: pointer;
 }
 .variety{
     font-size: 12px;
@@ -339,6 +344,10 @@ h3{
 .content1{
     font-size: 12px;
     color:#a9a9a9 ;
+}
+.content2:hover{
+    color: lime;
+    cursor: pointer;
 }
 .code{
     width: 76px;
