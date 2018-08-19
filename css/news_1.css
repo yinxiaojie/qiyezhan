@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding:0;
+    list-style: none;
+}
+header{
+    width: 100%;
+    height: 63px;
+}
+.head{
+    width: 100%;
+    height: 63px;
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-between;
+    border-bottom: 1px solid #e5e5e5;
+}
+.head_left{
+    width: 207px;
+    height: 63px;
+    background: url("../img/word.png") no-repeat center;
+    background-size: 128px 43px;
+    padding-left: 40px;
+}
+.head_right{
+    width:500px;
+    height: 63px;
+    margin-right: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    font-size: 12px;
+    color: #999999;
+    float: left;
+    margin-right: 61px;
+}
+a:last-child{
+    margin-right: 0;
+}
+a:hover {
+    color: #4bb344;
+    cursor: pointer;
+}
+.head_1{
+    height: 42px;
+}
+.topic{
+    font-size: 11px;
+    color: #adadad;
+    line-height: 42px;
+    margin-left: 55px;
+}
+section{
+    width: 100%;
+    height: 898px;
+    background: url("../img/bj.png") no-repeat center;
+    background-size: 1347px 898px;
+    overflow: hidden;
+}
+.produce {
+    width: 778px;
+    height: 798px;
+    background: #fff;
+    margin-top: 16px;
+    margin-left: 81px;
+    border: 1px solid #dddddd;
+    overflow: hidden;
+    float: left;
+}
+.picture{
+    width: 698px;
+    height: 141px;
+    background: url("../img/dayuancai.jpg") no-repeat center;
+    background-size: 698px 141px;
+    margin: 60px auto;
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    line-height: 141px;
+}
+.data{
+    width: 100%;
+    height: 12px;
+    margin-top: -30px;
+    font-size: 12px;
+    color: #bebebe;
+    padding-left: 39px;
+}
+.icon{
+    width: 160px;
+    height: 24px;
+    margin-left: 40px;
+}
+.icon>li{
+    width: 24px;
+    height: 24px;
+    background: url("../img/social_icon_24x24.png") no-repeat 0;
+    float: left;
+    margin-top: 24px;
+    margin-right: 6px;
+}
+.icon>li:nth-child(2){
+    background: url("../img/social_icon_24x24.png") no-repeat -47px;
+}
+.icon>li:nth-child(3){
+    background: url("../img/social_icon_24x24.png") no-repeat -23px;
+}
+.icon>li:nth-child(4){
+    background: url("../img/social_icon_24x24.png") no-repeat -191px;
+}
+.icon>li:nth-child(5){
+    background: url("../img/social_icon_24x24.png") no-repeat -95px;
+}
+.word{
+    width: 692px;
+    height: 182px;
+    /*background: #adadad;*/
+    margin: 50px auto;
+    font-size: 13px;
+    color: #696969;
+    line-height:22px;
+}
+.show{
+    width: 388px;
+    height: 790px;
+    background:white;
+    float: left;
+    margin-top: 16px;
+    margin-left: 20px;
+    border: 1px solid #dddddd;
+}
+.show_top{
+    width: 348px;
+    height: 40px;
+    background: #efefef;
+    margin: 60px auto;
+    font-size: 15px;
+    color: #666666;
+    text-align:center;
+    line-height: 40px;
+}
+.show_1{
+    width: 348px;
+    height: 104px;
+    /*background: #999999;*/
+    margin: -40px auto;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+}
+.photo{
+    width: 100px;
+    height: 70px;
+    background: url("../img/ziyuancai.jpg") no-repeat center;
+    margin-left: 5px;
+    margin-top: 17px;
+    float: left;
+}
+.name{
+    width: 190px;
+    height: 28px;
+    font-size: 13px;
+    color: #666666;
+    float: left;
+    margin-top: 14px;
+    margin-left: 14px;
+}
+.time{
+    width: 130px;
+    height: 11px;
+    font-size: 11px;
+    color:#666666;
+    margin-top: 60px;
+    margin-left: 120px;
+}
+.show_n{
+    margin-top: 39px;
+}
+.photo1{
+    background: url("../img/xiaoyuancai.jpg") no-repeat center;
+}
+.photo2{
+    background: url("../img/ziyuancai.jpg") no-repeat center;
+}
+.time1{
+    margin-top: 12px;
+}
+.photo3{
+    background: url("../img/xiangjiao.jpg") no-repeat center;
+}
+.photo4{
+    background: url("../img/ziputao.jpg") no-repeat center;
+}
+.photo5{
+    background: url("../img/nongchang.jpg") no-repeat center;
+}
+/*底部开始*/
+footer{
+    width: 100%;
+    height: 254px;
+    background: #f0f0f0;
+    margin-top: 81px;
+}
+.base{
+    width: 1048px;
+    height: 254px;
+    margin: 0 auto;
+}
+.base_top{
+    width: 1048px;
+    height: 138px;
+    display: flex;
+    justify-content: space-between;
+}
+.base_box{
+    width: 181px;
+    height: 138px;
+    margin-top: 46px;
+}
+h3{
+    font-size: 13px;
+    color:#333;
+    font-weight:normal;
+}
+.content{
+    font-size: 12px;
+    color: #a9a9a9;
+    margin-top: 47px;
+}
+.content1{
+    font-size: 12px;
+    color:#a9a9a9 ;
+}
+.content2:hover{
+    color: lime;
+    cursor: pointer;
+}
+.code{
+    width: 76px;
+    height: 76px;
+    background: url("../img/erweima.jpg") no-repeat center;
+    background-size: 76px 76px;
+    margin-top: 30px;
+}
+.base_bottom{
+    height: 16px;
+    font-size: 12px;
+    color: #808080;
+    margin-top: 73px;
+    margin-left: 350px;
+}
+/*底部结束*/

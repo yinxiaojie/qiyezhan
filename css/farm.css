@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding:0;
+    list-style: none;
+}
+header{
+    width: 100%;
+    height: 63px;
+    /*background: red;*/
+}
+.head{
+    width: 100%;
+    height: 63px;
+    /*background: greenyellow;*/
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-between;
+    border-bottom: 1px solid #e5e5e5;
+}
+.head_left{
+    width: 207px;
+    height: 63px;
+    background: url("../img/word.png") no-repeat center;
+    background-size: 128px 43px;
+    margin-left: 40px;
+}
+.head_right{
+    width:500px;
+    height: 63px;
+    /*background: cyan;*/
+    margin-right: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    font-size: 12px;
+    color: #999999;
+    float: left;
+    margin-right: 61px;
+}
+a:nth-child(2){
+    color: #4bb344;
+}
+a:last-child{
+    margin-right: 0;
+}
+a:hover {
+    color: #4bb344;
+    cursor: pointer;
+}
+main{
+    width: 100%;
+    height: 286px;
+    /*background: orange;*/
+    overflow: hidden;
+}
+.style{
+    width: 283px;
+    height: 286px;
+    background:url("../img/juzi.png") no-repeat center;
+    background-size: 283px 272px;
+    margin-left: 0;
+    float: left;
+}
+main>h1{
+    font-size: 44px;
+    color: #4bb344;
+    margin-top: 65px;
+    margin-left: 590px;
+    animation: translateY 2s forwards;
+}
+@keyframes translateY {
+    from{
+        transform: translateY(30px);
+    }
+    to{
+        transform: translateY(-5px);
+    }
+}
+.line{
+    width: 58px;
+    height: 2px;
+    background:#ededed;
+    margin-top: 27px;
+    margin-left: 565px;
+}
+main>h2{
+    font-size: 22px;
+    color: #999999;
+    margin-left:639px;
+    margin-top: -16px;
+    font-weight: normal;
+}
+.line_2{
+    margin-top:-15px;
+    margin-left:755px;
+}
+.fenlei{
+    width: 460px;
+    height: 31px;
+    /*background: yellow;*/
+    margin-top: 50px;
+    margin-left: 450px;
+    display: flex;
+    justify-content: space-between;
+}
+.fenlei_1{
+    width: 102px;
+    height: 29px;
+    border: 1px solid #e2e2e2;
+    font-size: 12px;
+    color:#a9a9a9;
+    text-align: center;
+    line-height: 29px;
+}
+.fenlei_11{
+    border: 1px solid #808080;
+    color: #333333;
+}
+.fenlei_1:hover{
+    border: 1px solid #808080;
+    color: #333333;
+}
+.product{
+    width: 1144px;
+    height: 648px;
+    /*background: yellow;*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    margin: 0 auto;
+}
+.product_show{
+    width: 271px;
+    height: 309px;
+    border: 1px solid #e5e5e5;
+    /*background: #4bb344;*/
+    margin-bottom: 26px;
+}
+@keyframes rotate {
+    from{
+        transform: rotate(60deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.caihua{
+    width: 200px;
+    height: 200px;
+    background: url("../img/caihua.jpg") no-repeat center;
+    margin-left: 35px;
+    animation: rotate 2s;
+}
+.caihua:hover{
+    transform: scale(1.1,1.1);
+    cursor: pointer;
+}
+.variety{
+    font-size: 12px;
+    color: #333;
+    margin-top: 60px;
+    text-align: center;
+}
+.tomato{
+    background: url("../img/tomato.jpg") no-repeat center;
+}
+.qiezi{
+    background: url("../img/qiezi.jpg") no-repeat center;
+}
+.doujiao{
+    background: url("../img/doujiao.jpg") no-repeat center;
+}
+.baicai{
+    background: url("../img/baicai.jpg") no-repeat center;
+}
+.taozi{
+    background: url("../img/tao.jpg") no-repeat center;
+}
+.caomei {
+    background: url("../img/caomei.jpg") no-repeat center;
+}
+.lizi{
+    background: url("../img/lizi.jpg") no-repeat center;
+}
+footer{
+    width: 100%;
+    height: 254px;
+    background: #f0f0f0;
+    margin-top: 203px;
+}
+.base{
+    width: 797px;
+    height: 254px;
+    margin: 0 auto;
+}
+.base_top{
+    width: 897px;
+    height: 138px;
+    display: flex;
+    justify-content: space-between;
+}
+.base_box{
+    width: 181px;
+    height: 138px;
+    margin-top: 46px;
+}
+h3{
+    font-size: 13px;
+    color:#333;
+    font-weight:normal;
+}
+.content{
+    font-size: 12px;
+    color: #a9a9a9;
+    margin-top: 47px;
+}
+.content1{
+    font-size: 12px;
+    color:#a9a9a9 ;
+}
+.content2:hover{
+    color: lime;
+    cursor: pointer;
+}
+.code{
+    width: 76px;
+    height: 76px;
+    background: url("../img/erweima.jpg") no-repeat center;
+    background-size: 76px 76px;
+    margin-top: 30px;
+}
+.base_bottom{
+    height: 16px;
+    font-size: 12px;
+    color: #808080;
+    margin-top: 73px;
+    text-align: center;
+}
