@@ -1,0 +1,390 @@
+*{
+    margin: 0;
+    padding:0;
+    list-style: none;
+    text-decoration: none;
+}
+header{
+    width: 100%;
+    height: 63px;
+    /*background: red;*/
+}
+.head{
+    width: 100%;
+    height: 63px;
+    /*background: greenyellow;*/
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-between;
+    border-bottom: 1px solid #e5e5e5;
+}
+.head_left{
+    width: 207px;
+    height: 63px;
+    background: url("../img/word.png") no-repeat center;
+    background-size: 128px 43px;
+    margin-left: 40px;
+}
+.head_right{
+    width:500px;
+    height: 63px;
+    /*background: cyan;*/
+    margin-right: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    font-size: 12px;
+    color: #999999;
+    float: left;
+    margin-right: 61px;
+}
+a:last-child{
+    margin-right: 0;
+}
+a:hover {
+    color: #4bb344;
+    cursor: pointer;
+}
+section{
+    width: 100%;
+    height: 630px;
+    /*background: gold;*/
+    margin-top: 39px;
+}
+.product {
+    width: 238px;
+    height: 399px;
+    /*background: #4bb344;*/
+    margin-left: 120px;
+    border: 1px solid #ddd;
+    float: left;
+}
+.all{
+    width: 229px;
+    height: 41px;
+    background: #999;
+    color: white;
+    line-height: 41px;
+    font-weight: bold;
+    font-size: 18px;
+    padding-left: 9px;
+}
+span{
+    font-weight: normal;
+    font-size: 13px;
+}
+.jiao{
+    font-size: 8px;
+    color: white;
+    float: right;
+    margin-right: 12px;
+}
+.style{
+    width: 223px;
+    height: 44px;
+    border-bottom: 1px solid #ddd;
+    /*background: pink;*/
+    margin: 0 auto;
+    font-size: 12px;
+    color: #888;
+    padding-left: 9px;
+    line-height: 44px;
+}
+.style:hover{
+    color: #4bb344;
+}
+.style:hover span{
+    color:palevioletred;
+}
+span{
+    font-size: 6px;
+}
+.show{
+    width: 828px;
+    height: 593px;
+    float: left;
+    margin-left:40px;
+    border: 1px solid #ddd;
+}
+.name{
+    width: 760px;
+    height: 89px;
+    margin:0 auto;
+    border-bottom: 1px solid #ddd;
+    overflow: hidden;
+}
+.name_1{
+    font-size: 21px;
+    color: #333;
+    padding-top: 55px;
+    float: left;
+}
+.letter{
+    font-size:9px;
+    color: #bababa;
+    margin-top: 65px;
+}
+.produce{
+    width: 355px;
+    height: 503px;
+    /*background: lightskyblue;*/
+    margin-left: 30px;
+    float: left;
+}
+.show_style{
+    width: 413px;
+    height:503px;
+    /*background: orange;*/
+    float: left;
+}
+.price{
+    width: 100%;
+    height: 63px;
+    margin-top: 68px;
+    font-size: 12px;
+    color: #696969;
+}
+.cost{
+    font-size: 19px;
+    color: #4bb344;
+}
+.money{
+    font-size: 14px;
+    color: #4bb344;
+}
+.star{
+    font-size: 13px;
+    color: #4bb344;
+    margin-top: -15px;
+}
+.sale{
+    font-size: 13px;
+    color: #a9a9a9;
+}
+.state{
+    width: 100%;
+    height: 32px;
+    font-size: 15px;
+    color: #333;
+    margin-top: 54px;
+}
+.word{
+    font-size: 11px;
+    color: #afafaf;
+}
+.point{
+    font-size: 1px;
+    color: #d8d8d8;
+}
+.cilck{
+    width: 100%;
+    height: 68px;
+    /*background:red;*/
+    margin-top: 19px;
+    font-size: 12px;
+    color: #808080;
+    line-height: 20px;
+}
+.share{
+    width: 100%;
+    height: 18px;
+    /*background: #4bb344;*/
+    margin-top: 49px;
+}
+.share_1{
+    width:60px;
+    height: 18px;
+    /*background: orange;*/
+    font-size: 15px;
+    color: #333;
+    line-height: 18px;
+    float: left;
+}
+.icon{
+    width: 140px;
+    height: 18px;
+    float: left;
+}
+.circle{
+    width: 18px;
+    height: 18px;
+    background: white;
+    border: 1px solid #4bb344;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+.icon-weixin1{
+    color: #4bb344;
+    font-size: 11px;
+    line-height: 18px;
+}
+.circle:hover{
+    background: #4bb344;
+}
+.circle:hover .icon-weixin1{
+    color: white;
+}
+.icon-douban{
+    color: #4bb344;
+    font-size: 11px;
+    line-height: 18px;
+}
+.circle:hover.icon-douban{
+    color: white;
+}
+.circle1{
+    border: 1px solid darkblue;
+}
+.circle1:hover{
+    background:blue;
+}
+.icon-facebook-copy{
+    font-size: 11px;
+    line-height: 18px;
+    color:blue;
+}
+.circle1:hover .icon-facebook-copy{
+    color: white;
+}
+.circle2{
+    border: 1px solid indianred;
+}
+.icon-google{
+    font-size: 11px;
+    line-height: 18px;
+    color:indianred ;
+}
+.circle2:hover{
+    background:indianred;
+}
+.circle2:hover .icon-google{
+    color: white;
+}
+.circle3{
+    border: 1px solid dodgerblue;
+}
+.icon-in1{
+    font-size: 11px;
+    line-height: 18px;
+    color:dodgerblue ;
+}
+.circle3:hover{
+    background:dodgerblue ;
+}
+.circle3:hover .icon-in1{
+    color: white;
+}
+.line {
+    width: 153px;
+    height: 39px;
+    background: #4bb344;
+    margin-top: 50px;
+    font-size: 12px;
+    color: white;
+    text-align: center;
+    line-height: 39px;
+    border: 1px solid #4bb344;
+}
+.line:hover{
+    background: white;
+    color: #4bb344;
+}
+.fruit{
+    width: 332px;
+    height: 332px;
+    margin: 0 auto;
+    position: relative;
+}
+.fruit img{
+    width: 332px;
+    height: 332px;
+    display: block;
+}
+.picture{
+    display: block;
+    position: absolute;
+    top:0;
+    left:0;
+}
+.fruit_small{
+    width: 320px;
+    height: 80px;
+    background: cyan;
+    margin: 20px auto;
+}
+.photo{
+    width: 80px;
+    height: 80px;
+    background: url("../img/xiaocaihua.jpg") no-repeat center;
+    background-size: 80px 80px;
+    float: left;
+    margin-right:0;
+}
+.photo_1{
+    background: url("../img/xiaoshizi.jpg") no-repeat center;
+}
+.photo_2{
+    background: url("../img/boluo.jpg") no-repeat center;
+}
+.photo_3{
+    background: url("../img/xiaoshiliu.jpg") no-repeat center;
+}
+footer{
+    width: 100%;
+    height: 254px;
+    background: #f0f0f0;
+    margin-top: 181px;
+}
+.base{
+    width: 797px;
+    height: 254px;
+    /*background: #999999;*/
+    margin: 0 auto;
+}
+.base_top{
+    width: 897px;
+    height: 138px;
+    /*background: cyan;*/
+    display: flex;
+    justify-content: space-between;
+}
+.base_box{
+    width: 181px;
+    height: 138px;
+    margin-top: 46px;
+    /*background: #4bb344;*/
+}
+h3{
+    font-size: 13px;
+    color:#333;
+    font-weight:normal;
+}
+.content{
+    font-size: 12px;
+    color: #a9a9a9;
+    margin-top: 47px;
+}
+.content1{
+    font-size: 12px;
+    color:#a9a9a9 ;
+}
+.content2:hover{
+    color: lime;
+    cursor: pointer;
+}
+.code{
+    width: 76px;
+    height: 76px;
+    background: url("../img/erweima.jpg") no-repeat center;
+    background-size: 76px 76px;
+    margin-top: 30px;
+}
+.base_bottom{
+    height: 16px;
+    font-size: 12px;
+    color: #808080;
+    margin-top: 73px;
+    text-align: center;
+}

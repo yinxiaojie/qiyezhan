@@ -2,6 +2,7 @@
     margin: 0;
     padding:0;
     list-style: none;
+    text-decoration: none;
 }
 header{
     width: 100%;
@@ -9,7 +10,7 @@ header{
     /*background: red;*/
 }
 .head{
-    width: 1259px;
+    width:100%;
     height: 63px;
     /*background: greenyellow;*/
     margin: 0 auto;
@@ -153,6 +154,9 @@ section{
 }
 .new8{
     background: url("../img/tuolaji.jpg") no-repeat;
+}
+div>.color{
+    color: #afafaf;
 }
 /*新闻中心结束*/
 /*底部开始*/
