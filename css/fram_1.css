@@ -300,21 +300,20 @@ span{
 .fruit img{
     width: 332px;
     height: 332px;
-    display: block;
 }
 .picture{
-    display: block;
     position: absolute;
     top:0;
     left:0;
+    z-index: 5;
 }
 .fruit_small{
     width: 320px;
     height: 80px;
-    background: cyan;
+    /*background: cyan;*/
     margin: 20px auto;
 }
-.photo{
+.fruit_small>li{
     width: 80px;
     height: 80px;
     background: url("../img/xiaocaihua.jpg") no-repeat center;
@@ -322,13 +321,13 @@ span{
     float: left;
     margin-right:0;
 }
-.photo_1{
+.fruit_small>li:nth-child(2){
     background: url("../img/xiaoshizi.jpg") no-repeat center;
 }
-.photo_2{
+.fruit_small>li:nth-child(3){
     background: url("../img/boluo.jpg") no-repeat center;
 }
-.photo_3{
+.fruit_small>li:nth-child(4){
     background: url("../img/xiaoshiliu.jpg") no-repeat center;
 }
 footer{
