@@ -278,6 +278,9 @@ a{
     /*background: #4bb344;*/
     margin-bottom: 26px;
 }
+.product_show:hover{
+    border: 1px solid #4bb344;
+}
 @keyframes rotate {
     from{
         transform: rotate(60deg);

@@ -296,16 +296,15 @@ span{
     height: 332px;
     margin: 0 auto;
     position: relative;
+    overflow: hidden;
 }
 .fruit img{
     width: 332px;
     height: 332px;
-}
-.picture{
     position: absolute;
-    top:0;
-    left:0;
-    z-index: 5;
+    top: 0;
+    left: 332px;
+    /*display: none;*/
 }
 .fruit_small{
     width: 320px;
@@ -329,6 +328,14 @@ span{
 }
 .fruit_small>li:nth-child(4){
     background: url("../img/xiaoshiliu.jpg") no-repeat center;
+}
+.back{
+    width: 80px;
+    height: 80px;
+    background: rgba(255,255,255,0.5);
+    z-index: 10;
+    position: absolute;
+    display: none;
 }
 footer{
     width: 100%;
