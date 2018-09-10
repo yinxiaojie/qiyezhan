@@ -11,7 +11,7 @@ window.onload=function () {
                 fenlei1[j].style.border="1px solid rgba(226,226,226,1)";
             }
             product[i].style.zIndex="10";
-            fenlei1[i].style.border="1px solid rgba(170,170,170,1)";
+            fenlei1[i].style.border="1px solid #aaa";
         }
     }
 

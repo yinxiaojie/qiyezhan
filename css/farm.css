@@ -150,14 +150,14 @@ section{
 .product_show:hover{
     border: 1px solid #4bb344;
 }
-@keyframes rotate {
-    from{
-        transform: rotate(60deg);
-    }
-    to{
-        transform: rotate(360deg);
-    }
-}
+/*@keyframes rotate {*/
+    /*from{*/
+        /*transform: rotate(60deg);*/
+    /*}*/
+    /*to{*/
+        /*transform: rotate(360deg);*/
+    /*}*/
+/*}*/
 .caihua{
     width: 200px;
     height: 200px;
@@ -165,10 +165,10 @@ section{
     margin-left: 35px;
     animation: rotate 2s;
 }
-/*.caihua:hover{*/
-    /*transform: scale(1.1,1.1);*/
-    /*cursor: pointer;*/
-/*}*/
+.caihua:hover{
+    transform: scale(1.1,1.1);
+    cursor: pointer;
+}
 .variety{
     font-size: 12px;
     color: #333;

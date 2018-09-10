@@ -122,6 +122,11 @@ section{
     font-size: 13px;
     color: #333;
 }
+span{
+    color: #000 ;
+    font-size:15px;
+    font-weight: bold;
+}
 .address{
     font-size: 13px;
     color: #333;
