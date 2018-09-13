@@ -59,12 +59,17 @@ section{
     background-size: 1347px 1150px;
     overflow: hidden;
 }
+.inside{
+    width: 1186px;
+    height: 100%;
+    margin: 16px auto;
+    display: flex;
+    justify-content: space-between;
+}
 .produce {
     width: 778px;
     height: 998px;
     background: #fff;
-    margin-top: 16px;
-    margin-left: 81px;
     border: 1px solid #dddddd;
     overflow: hidden;
     float: left;
@@ -149,7 +154,6 @@ section{
     height: 790px;
     background:white;
     float: left;
-    margin-top: 16px;
     margin-left: 20px;
     border: 1px solid #dddddd;
 }
